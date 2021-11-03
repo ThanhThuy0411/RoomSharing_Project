@@ -1,0 +1,2 @@
+ALTER TABLE `rental_home`
+CHANGE COLUMN `status` `status` ENUM('NOT_HIRED', 'HIRED', 'SHARING') NULL DEFAULT NULL;
